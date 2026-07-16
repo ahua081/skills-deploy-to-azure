@@ -1,11 +1,2 @@
-name: Stage the app
-
-on:
-  pull_request:
-    types: [labeled]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    if: contains(github.event.pull_request.labels.*.name, 'stage')
+DOCKER_IMAGE_NAME: ahua081-azure-ttt
+AZURE_WEBAPP_NAME: ahua081-ttt-app
