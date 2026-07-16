@@ -100,6 +100,3 @@ jobs:
             az logout
             az cache purge
             az account clear
-
-DOCKER_IMAGE_NAME: ahua081-azure-ttt
-AZURE_WEBAPP_NAME: ahua081-ttt-app
